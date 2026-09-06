@@ -1,0 +1,27 @@
+# Hay Star - Git Ignore Rules
+# Developed by Ashraf Morningstar
+
+# Build outputs and caches
+target/
+**/target/
+native/build/*.o
+native/build/*.obj
+*.pdb
+*.ilk
+
+# Temporary and history files
+.mstar_history
+*.tmp
+*.log
+__pycache__/
+*.pyc
+
+# Local IDE configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large crash dumps and error logs
+error_logs/crash_*
+!error_logs/.gitkeep

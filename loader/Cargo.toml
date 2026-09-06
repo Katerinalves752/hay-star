@@ -1,0 +1,40 @@
+﻿[package]
+name = "hay-star"
+version = "0.1.0"
+edition = "2021"
+description = "Hay Star - High Performance Native Bot Loader for Hay Day"
+
+[[bin]]
+name = "hay-star"
+path = "src/main.rs"
+
+[dependencies]
+# Async runtime (for TCP control server)
+tokio = { version = "1", features = ["rt", "rt-multi-thread", "net", "io-util", "sync", "macros"] }
+
+# REPL with history
+rustyline = "14"
+
+# JSON (Frida RPC args/returns)
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# SHA-256 for asset verification
+sha2 = "0.10"
+hex = "0.4"
+
+# Regex (residue cleanup patterns)
+regex = "1"
+
+# Error handling
+anyhow = "1"
+thiserror = "1"
+
+# Random jitter for farm loop
+rand = "0.8"
+
+# Byte order / packing
+byteorder = "1"
+
+# Colored output
+colored = "2"

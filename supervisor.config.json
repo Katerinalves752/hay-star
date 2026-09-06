@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "project": "Hay Star - Autonomous Supervisor",
+  "author": "Ashraf Morningstar",
+  "version": "1.0.0",
+  "emulator": {
+    "package_name": "com.supercell.hayday",
+    "auto_detect_adb": true,
+    "preferred_adb_port": 5555,
+    "fallback_adb_ports": [5554, 5556, 5558, 62001, 7555]
+  },
+  "farming": {
+    "enabled": true,
+    "crop_id": 400001,
+    "crop_name": "Wheat",
+    "farm_interval_sec": 125,
+    "human_jitter_sec": 5,
+    "harvest_before_plant": true
+  },
+  "roadside_shop": {
+    "auto_sell": true,
+    "item_id": 400001,
+    "slot_start": 0,
+    "slots_to_fill": 10,
+    "stack_size": 10,
+    "unit_price": 1,
+    "enable_newspaper_ad": true,
+    "sell_interval_cycles": 1
+  },
+  "watchdog": {
+    "auto_restart_on_crash": true,
+    "health_check_interval_sec": 10,
+    "max_restart_attempts": 20,
+    "cooldown_between_restarts_sec": 6,
+    "detect_game_freeze": true,
+    "freeze_timeout_sec": 45
+  },
+  "tcp_control": {
+    "host": "127.0.0.1",
+    "port": 31350,
+    "connect_retries": 15,
+    "retry_interval_sec": 2,
+    "command_timeout_sec": 10
+  },
+  "anti_detection": {
+    "spoof_samsung_s24": true,
+    "quago_telemetry_blocking": true,
+    "promon_shield_suppression": true
+  },
+  "logging": {
+    "verbose": true,
+    "log_to_file": true,
+    "log_filename": "supervisor.log"
+  }
+}
