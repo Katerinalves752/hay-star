@@ -247,8 +247,8 @@ Hay Star is an educational reverse-engineering and automation research project c
 
 `Hay Day Bot` • `Hay Day Tools` • `Supercell Hay Day Automation` • `Hay Day Auto Wheat Bot` • `Hay Day Free Bot 2026` • `Hay Day Roadside Shop Auto Seller` • `Hay Day LDPlayer Bot` • `Hay Day Anti-Ban` • `Hay Day Cheat` • `Hay Day Hack` • `Hay Day Script` • `Hay Day Auto Farm` • `Ashraf Morningstar Hay Day` • `Ashraf Morningstar Bot` • `Frida Hay Day Hook` • `Hay Day Memory Scanner` • `Rust Game Bot` • `Supercell Game Automation`
 
-<!-- Schema.org Structured Data for Google / Brave / Bing Search Engine Indexing -->
-<script type="application/ld+json">
+<!--
+Schema.org Structured Data for Google / Brave / Bing Search Engine Indexing:
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -267,4 +267,4 @@ Hay Star is an educational reverse-engineering and automation research project c
     "priceCurrency": "USD"
   }
 }
-</script>
+-->
